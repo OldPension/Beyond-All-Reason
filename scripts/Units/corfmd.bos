@@ -30,27 +30,27 @@ Create()
 
 Activate()
 {
-	move dbl to x-axis [-8] speed [8];
-	move dbl to z-axis [-8] speed [8];
-	move dbr to x-axis [8] speed [8];
-	move dbr to z-axis [-8] speed [8];
-	move dtl to x-axis [-8] speed [8];
-	move dtl to z-axis [8] speed [8];
-	move dtr to x-axis [8] speed [8];
-	move dtr to z-axis [8] speed [8];	
+	move dbl to x-axis [-8] speed [74];
+	move dbl to z-axis [-8] speed [74];
+	move dbr to x-axis [8] speed [74];
+	move dbr to z-axis [-8] speed [74];
+	move dtl to x-axis [-8] speed [74];
+	move dtl to z-axis [8] speed [74];
+	move dtr to x-axis [8] speed [74];
+	move dtr to z-axis [8] speed [74];	
 	wait-for-move dtr along z-axis;
 }
 
 Deactivate()
 {
-	move dbl to x-axis [0] speed [8];
-	move dbl to z-axis [0] speed [8];
-	move dbr to x-axis [0] speed [8];
-	move dbr to z-axis [0] speed [8];
-	move dtl to x-axis [0] speed [8];
-	move dtl to z-axis [0] speed [8];
-	move dtr to x-axis [0] speed [8];
-	move dtr to z-axis [0] speed [8];	
+	move dbl to x-axis [0] speed [74];
+	move dbl to z-axis [0] speed [74];
+	move dbr to x-axis [0] speed [74];
+	move dbr to z-axis [0] speed [74];
+	move dtl to x-axis [0] speed [74];
+	move dtl to z-axis [0] speed [74];
+	move dtr to x-axis [0] speed [74];
+	move dtr to z-axis [0] speed [74];	
 }
 
 SetMaxReloadTime(reloadMS)
